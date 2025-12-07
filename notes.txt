@@ -1,0 +1,2 @@
+right now, when you use the browser extension and click it adds another popup every time you do it so it kinda stacks. how to fix?
+eventual goal is to insetad of alerting to send the values in the click to the anki adder script, which will in turn send them to anki

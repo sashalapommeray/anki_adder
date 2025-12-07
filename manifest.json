@@ -1,0 +1,21 @@
+{
+  "name": "Highlight Action",
+  "description": "Adds a right‑click option for highlighted text.",
+  "version": "1.0",
+  "manifest_version": 2,
+
+  "permissions": [
+    "contextMenus",
+    "activeTab",
+    "scripting"
+  ],
+
+  "background": {
+    "scripts": ["background.js"]
+  },
+
+  "icons": {
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}
