@@ -7,3 +7,5 @@ about:debugging#/runtime/this-firefox
 
 in chrome
 chrome://extensions
+
+you have to create your own wanikani sentences note type, otherwise it falls back on the default.
