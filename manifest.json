@@ -1,21 +1,10 @@
 {
-  "name": "Highlight Action",
-  "description": "Adds a right‑click option for highlighted text.",
+  "manifest_version": 3,
+  "name": "Send to Anki",
   "version": "1.0",
-  "manifest_version": 2,
-
-  "permissions": [
-    "contextMenus",
-    "activeTab",
-    "scripting"
-  ],
-
+  "permissions": ["contextMenus"],
+  "host_permissions": ["http://127.0.0.1:8765/"],
   "background": {
     "scripts": ["background.js"]
-  },
-
-  "icons": {
-    "48": "icon48.png",
-    "128": "icon128.png"
   }
 }
